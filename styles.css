@@ -1,24 +1,20 @@
 body{
-    background-color: ;
-    
+  text-align: center;
 }
-
-
-/* Add a black background color to the top navigation */
+/* Adding a background color to the top navigation */
 .topnav {
-    background-color: #D2D2CF;
     overflow: hidden;
   }
   
   /* Style the links inside the navigation bar */
-  .topnav a {
+  .topnav a{
     float: right;
     display: block;
     color: #2D2D30;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 22px;
     font-family: 'Poppins';
   }
   
@@ -73,14 +69,9 @@ body{
     }  
   }
 
-  
-
-
-
-
 .padding-wala-div{
     padding-top: 2%;
-    padding-bottom: 2%;
+    padding-bottom: 1%;
 }
 #home-page-text{
     margin-top: 12%;
@@ -96,7 +87,21 @@ body{
     padding-top: 8%;
 }
 .container{
-    background-color: #D2D2CF; !important
+    background-color: #D2D2CF;
 }
 
 
+#footer{
+  text-align: center;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icons:hover {
+  color: #D2D2CF;
+}
+.icons {
+  margin: 0 2% 3%;
+}
